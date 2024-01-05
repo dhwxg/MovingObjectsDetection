@@ -1,0 +1,9 @@
+{
+  "area_threshold": 500,
+  "detect_duration": 3,
+  "last_beep_time": 3,
+  "gaussian_blur_kernel_size": 1,
+  "gaussian_blur_sigma": 10,
+  "minimize_chrome": true,
+  "minimize_edge": false
+}

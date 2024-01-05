@@ -1,0 +1,34 @@
+Description:
+MotionObjectDetection is a Python script for real-time motion object detection using computer vision techniques. The script captures video frames from a camera, applies background subtraction within a user-defined region of interest (ROI), and identifies moving objects within that region. When motion is detected, the script triggers a beep sound and optionally minimizes specified windows.
+
+Key Features:
+
+Background subtraction using Gaussian blur and morphological operations.
+User-defined region of interest (ROI) for targeted motion detection.
+Real-time display of video frames with bounding boxes around detected objects.
+Beep sound alerts for motion events, customizable duration.
+Option to minimize specific windows upon motion detection.
+Configuration:
+The script reads configuration parameters from a config.json file, allowing users to customize area thresholds, detection duration, beep settings, and window minimization preferences.
+
+Usage:
+This script can be used for applications such as security surveillance, motion-triggered alerts, or interactive installations where real-time motion detection is crucial.
+
+Dependencies:
+
+OpenCV (cv2)
+NumPy
+winsound
+pygetwindow
+tkinter
+How to Use:
+
+Ensure that the camera is connected and accessible.
+Create a config.json file with the desired configuration parameters.
+Run the script, and press 'q' to stop the detection.
+Contributions:
+Contributions and improvements to the script are welcome. Feel free to submit pull requests for enhancements or bug fixes.
+
+License:
+This project is open-source and is available under the MIT License.
+
